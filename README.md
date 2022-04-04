@@ -48,3 +48,5 @@ indicated at the beginning of the file.
 * **PLEASE** add comments and document your code.
 * Update `.gitignore` with anything that is too large or doesn't need to be
 in the Github repo.
+* By default, except `README.md` from data, nothing would be pushed to Github. 
+If something needs to be on Github, add exception in `.gitignore`.

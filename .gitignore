@@ -213,5 +213,6 @@ $RECYCLE.BIN/
 
 # Ignore data folder
 data/*
+!data/README.md
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,python
