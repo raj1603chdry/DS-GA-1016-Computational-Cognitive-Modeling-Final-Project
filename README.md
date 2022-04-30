@@ -18,7 +18,8 @@ NYU Spring 2022)
 
 ## Approved Proposal
 
-> **To Be Updated**
+> The Convolutional Neural Network was a breakthrough in Artificial Intelligence (CNN). CNN cut the error rate in the ImageNetChallenge, a benchmark for Visual Representation, in half in 2012. It signaled the start of the Deep Learning craze. CNN's have since revolutionized the field of Computer Vision and are now the industry standard for Object Recognition and Categorization. Categorization is an intriguing problem in cognitive psychology, and CNNs are the most widely used models to represent human brain categorization. Lake et al. [1] investigated how CNNs could predict category typicality ratings in a seminal paper, 'Deep Neural Networks Predict Category Typically Ratings,' and contributed to our understanding of categorization psychology. In 2017, Professor Hilton, one of Deep Learning's founding fathers, identified a major flaw in CNNs. CNNs, while detecting features in an image, do not
+account for the spatial locality of the features. For example, operations like max-pooling which acts as an intermediate layer in most CNN architectures, lose spatial locality information. As a result, CNNs are prone to errors such as misclassifying a morphed facial image as a person. Furthermore, CNN has difficulty correctly classifying upside-down images. Humans, on the other hand, do not have such issues. As a result, CNN cannot be the pinnacle of representing categorization psychology. Interestingly, Prof. Hilton also proposed Capsule Networks, a radical new approach to Object Recognition [2]. Transformers were initially intended to perform text-based tasks. [3] proposes a vision model (Vision Transformer-ViT) that is as close to the Transformer architecture as possible. ViT represents an input image as a sequence of image patches, like how word embeddings are represented when using Transformers on the text and predicts class labels for the image directly. ViTs demonstrate excellent performance when trained on sufficient data, outperforming a comparable state-of-the-art CNN [3]. This project builds on the work of Lake et al. by evaluating the ability of models to predict category typicality with a performance analysis of GoogleNet, AlexNet, VGG, Capsule Networks, and Visual Transformers.
 
 ## Dataset sources
 
@@ -30,7 +31,11 @@ NYU Spring 2022)
 
 ## References
 
-> **To Be Updated**
+[1] Lake, B. M., Zaremba, W., Fergus, R. and Gureckis, T. M. Deep Neural Networks Predict Category Typicality Ratings for Images. In Proceedings of the 37th Annual Conference of the Cognitive Science Society, 2015.
+
+[2] Sabour, S., Frosst, N., and Hinton, G. E. Dynamic Routing Between Capsules. arXiv:1710.09829, 2017.
+
+[3] Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., ... & Houlsby, N. (2020). An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929.
 
 ## General Guidelines (TBC)
 
